@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #141414;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header{
+    background: #131313;
+    border-bottom: 1px solid #222323;
+    padding: 42px 6% 25px;
+    color: white;
+}
+
+
+header h1{
+    font-size: 2.7rem;
+}
+header h2{
+    font-size: 0.8rem;
+    color: #bbb;
+
+}
+
+header h2 span{
+    color: #fff;
+}
+
+header p{
+    color:rgb(117, 117, 117);
+    font-size: 13px;
+}
+
+
+section{
+    padding: 25px 6% 50px;
+}
+.actions-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.actions-container .genere_list{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding:0;
+    margin:0;
+}
+
+.actions-container .genere_list li{
+    color: #333;
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    font-weight: 700;
+}
+
+.actions-container .genere_list li.active{
+    color: #eee;
+}
+
+.actions-container .btn{
+    color: #333;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #fff;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.4em;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.actions-container .btn:hover{
+    border: none;
+    background:white;
+    color: #333;
+}
+
+section .cards-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.2rem;
+    padding: 0;
+}
+
+section .card{
+    width: 224px;
+    color: #bdbdbd;
+    background: #333;
+    border-radius: 6px;
+    margin: 0 1rem 1rem 0;
+}
+
+.card .header{
+    padding: 0 12px;
+    font-size: 0.9rem;
+    padding: 0.5em 0.5em;
+    display: flex;
+}
+
+.card .header .rank{
+    color: white;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    flex: 1;
+}
+
+.card .header .votes{
+    flex: 2;
+}
+
+.card .header svg{
+    flex: 1;
+}
+
+.card .media,.content{
+    background: #1f1f1f;
+    padding:1em 1em 0 1em;
+}
+
+.card .media img{
+    height: 72px;
+    width: 72px;
+    border-radius: 6px;
+    margin:0;
+    
+}
+
+.card .content{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1em 1em;
+}
+
+.card .content .text{
+    display: flex;
+    flex-direction: column;
+}
+.content .text .title{
+    color:white;
+    font-size: 15px;
+}
+.content .text .caption{
+    color:#696969;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.card .content a{
+    text-decoration:none;
+    color: none;
+}
+
+.play-icon{
+    color: green;
+    font-size: 24px;
+}
+
+@media (max-width:576px){
+
+    .actions-container{
+        display:block;
+    }
+
+    .actions-container .btn{
+        display: block;
+    }
+
+}
