@@ -11,6 +11,7 @@ body{
     padding: 0;
     background: #141414;
     font-family: 'Noto Sans', sans-serif;
+    color: white;
 }
 
 header{
@@ -96,7 +97,7 @@ section .cards-container{
     padding: 0;
 }
 
-section .card{
+.card{
     width: 224px;
     color: #bdbdbd;
     background: #333;
@@ -168,8 +169,48 @@ section .card{
 }
 
 .play-icon{
-    color: green;
+    color: #54ba54;
     font-size: 24px;
+}
+
+.recent_votes{
+    margin-top: 3rem;
+}
+
+.card-wide{
+    width: 282px;
+    color: #bdbdbd;
+    background: #1e1e1e;
+    border-radius: 6px;
+    
+}
+
+.card-wide .header,.content{
+    padding: .4rem .8rem;
+}
+
+.card-wide .header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-wide .header .votes{
+    font-size: 12px;
+}
+
+.card-wide .content .media img{
+    height: 45px;
+    width: 45px;
+    margin-right: 14px;
+    border-radius: 4px;
+}
+
+.card-wide .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 @media (max-width:576px){
