@@ -9,11 +9,17 @@
 body{
     margin: 0;
     padding: 0;
-    background: #141414;
+    background: white;
     font-family: 'Noto Sans', sans-serif;
     color: white;
 }
 
+.container{
+    background: #141414;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
 header{
     background: #131313;
     border-bottom: 1px solid #222323;
