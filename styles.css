@@ -219,6 +219,16 @@ section .cards-container{
     align-items: center;
 }
 
+footer{
+    position: absolute;
+    bottom: 1em;
+    width: 100%;
+}
+footer p{
+    font-size:13px;
+    text-align: center;
+}
+
 @media (max-width:576px){
 
     .actions-container{
