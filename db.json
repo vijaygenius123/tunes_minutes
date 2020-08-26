@@ -1,0 +1,32 @@
+{
+    "songs": [
+        {
+            "id": 1,
+            "rank": 1,
+            "votes": 10,
+            "title": "First Song",
+            "description": "Amazing Song"
+        },
+        {
+            "id": 2,
+            "rank": 2,
+            "votes": 1,
+            "title": "Second Song",
+            "description": "Nice Song"
+        },
+        {
+            "id": 3,
+            "rank": 3,
+            "votes": 20,
+            "title": "Third Song",
+            "description": "Super Song"
+        },
+        {
+            "id": 4,
+            "rank": 4,
+            "votes": 5,
+            "title": "Fourth Song",
+            "description": "Bejar Song"
+        }
+    ]
+}
